@@ -3,7 +3,10 @@ import java.util.*;
 public class WordCounter {
 
     public static void main(String[] args) {
-        String sentence = "The sun shines over the lake, as the sun sets behind the hills.";
+        String sentence = """
+                How much wood would a woodchuck chuck if a woodchuck could chuck wood.
+                He would chuck, he would, as much as he could, and chuck as much wood
+                As a woodchuck would if a woodchuck could chuck wood""";
 
         Map<String, Integer> wordCount = countWords(sentence);
 
